@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap");
 
 * {
   margin: 0px;
@@ -7,7 +7,6 @@
 }
 
 body {
-  padding-bottom: 600px;
   color: #111111;
 }
 ul {
@@ -21,4 +20,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
